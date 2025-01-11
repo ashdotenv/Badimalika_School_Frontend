@@ -24,13 +24,13 @@ const Navbar = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M2.003 5.884L10 10.882l7.997-4.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 5-8-5V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                         </svg>
-                        <span>info@modernizeschool.edu.np</span>
+                        <span>info@badimalikasecschool.com</span>
                     </div>
                     <div class="flex items-center space-x-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm12 4H6v2h8V9z" clip-rule="evenodd" />
                         </svg>
-                        <span>+977-123-456789</span>
+                        <span>+977-9758900824</span>
                     </div>
                 </div>
             </div>
@@ -102,27 +102,7 @@ const Navbar = () => {
                                 <Link className="block px-4 py-2 hover:bg-gray-100" to="/activities/events">
                                     Events
                                 </Link>
-                                <Link className="block px-4 py-2 hover:bg-gray-100" to="/activities/notices">
-                                    Noties
-                                </Link>
-                                <Link
-                                    className="block px-4 py-2 hover:bg-gray-100"
-                                    to="/activities/Vacancy"
-                                >
-                                    Vacancy
-                                </Link>
-                                <Link
-                                    className="block px-4 py-2 hover:bg-gray-100"
-                                    to="/activities/teachers"
-                                >
-                                    Teachers
-                                </Link>
-                                <Link
-                                    className="block px-4 py-2 hover:bg-gray-100"
-                                    to="/activities/students"
-                                >
-                                    Students
-                                </Link>
+                                
                             </div>
                         </div>
 

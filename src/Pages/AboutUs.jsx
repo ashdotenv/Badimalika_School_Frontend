@@ -1,5 +1,8 @@
 import React from 'react';
 
+import KrishnaParsad from '../image-teacher/Krishna.jpg';
+import ManojParsadShah from '../image-teacher/manoj.jpg'
+
 const AboutUs = () => {
   return (
     <>
@@ -132,19 +135,19 @@ const AboutUs = () => {
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Mathmatecian"
+              alt="Senior Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Manoj Kumar Shah</h3>
-            <p className="text-gray-600">Mathmatecian Teacher</p>
+            <h3 className="text-xl font-bold">Parbhulal Neupane</h3>
+            <p className="text-gray-600">Senior Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              src= {ManojParsadShah}
+              alt="Mathmatecian Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">DharmaRaj Baral</h3>
+            <h3 className="text-xl font-bold">Manoj Parsad Shah</h3>
             <p className="text-gray-600">Mathmatecian Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
@@ -158,231 +161,232 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              src= {KrishnaParsad}
+              alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Krishna Neupane</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Krishna Prasad Baral</h3>
+            <p className="text-gray-600">English Teacher</p>
           </div>
 
 
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Accountancy Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Kalpana Shahi Bam</h3>
+            <p className="text-gray-600">Accountancy Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Hemraj Neupane</h3>
+            <p className="text-gray-600">English Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Buddhi Parsad Adhikari</h3>
+            <p className="text-gray-600">Nepali Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dhurba Raj Sanjyal</h3>
+            <p className="text-gray-600">Nepali Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Business Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Lanka Bhadur Shahi</h3>
+            <p className="text-gray-600">Business Teacher</p>
           </div>  <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Internal Management team"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Prem Bhadur Shahi</h3>
+            <p className="text-gray-600">Internal Management team</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="All Rounder"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Mekindra Bhadur Shahi</h3>
+            <p className="text-gray-600">All Rounder</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Sobha Shahi</h3>
+            <p className="text-gray-600">Nepali Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dil Kumar Chaudhary</h3>
+            <p className="text-gray-600">English Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">TJ Janala</h3>
+            <p className="text-gray-600">English Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Alina Kumari Shahi</h3>
+            <p className="text-gray-600">Nepali Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Science Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Meera Shahi</h3>
+            <p className="text-gray-600">Science Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Social Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Kirta Raj Bista</h3>
+            <p className="text-gray-600">Social Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Math Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dharma Raj Baral</h3>
+            <p className="text-gray-600">Math Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Children based education teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Baali Kumari Shahi</h3>
+            <p className="text-gray-600">Children based education teacher</p>
           </div>
 
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Science Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dhana Parsad Upadhya</h3>
+            <p className="text-gray-600">Science Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Science Teachers"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dil Raj Phadera</h3>
+            <p className="text-gray-600">Science Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="ECD HEAD"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Yamuna Bhauju</h3>
+            <p className="text-gray-600">ECD HEAD</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Accountant"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Lokendra Shahi</h3>
+            <p className="text-gray-600">Accountant</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Office Management Team"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Kishna Badhur Sanjyal</h3>
+            <p className="text-gray-600">Office Management Team</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Helper"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Dhurba Bahadur Shahi</h3>
+            <p className="text-gray-600">Helper</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Hostel Incharge"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Preetam Bahadur Shahi</h3>
+            <p className="text-gray-600">Hostel Incharge</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Sport Teacher/DI"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Jiban Shahi</h3>
+            <p className="text-gray-600">Sport Teacher/DI</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
-              alt="Vice Principal"
+              alt="Guard"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Ms. Sita Kumari</h3>
-            <p className="text-gray-600">Vice Principal</p>
+            <h3 className="text-xl font-bold">Kamal Badhur Shahi</h3>
+            <p className="text-gray-600">Guard</p>
           </div>
+       
         </div>
       </div>
     </section>
@@ -466,7 +470,7 @@ const AboutUs = () => {
                 loading="lazy"
               />
             </div>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden h-svh">
                 <img 
                   src="/uploads-school/9.jpeg" 
                 
