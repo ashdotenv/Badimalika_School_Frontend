@@ -22,6 +22,8 @@ import Yamuna from '../image-teacher/yamuna.jpg'
 import krishnasanjyal from '../image-teacher/k-s.jpg';
 import dhanaparsad from '../image-teacher/dhanap.jpg';
 import sportsteacher from '../image-teacher/jiban.jpg';
+import dhurba from '../image-teacher/dhurbasanj.jpg';
+import buddhiparsad from '../image-teacher/buddhiparsad.jpg';
 
 const AboutUs = () => {
   return (
@@ -211,7 +213,7 @@ const AboutUs = () => {
           
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {buddhiparsad}
               alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -221,7 +223,7 @@ const AboutUs = () => {
           
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {dhurba}
               alt="Nepali Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
