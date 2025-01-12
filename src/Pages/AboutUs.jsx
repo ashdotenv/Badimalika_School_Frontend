@@ -1,7 +1,27 @@
 import React from 'react';
+import '../index.css'
+
 
 import KrishnaParsad from '../image-teacher/Krishna.jpg';
-import ManojParsadShah from '../image-teacher/manoj.jpg'
+import ManojParsadShah from '../image-teacher/manoj.jpg';
+import Mekindra from '../image-teacher/mekindra.jpg';
+import DK from '../image-teacher/dk.jpg';
+import KALPANA from '../image-teacher/kalpana.jpg';
+import HEMRAJ from '../image-teacher/hemraj.jpg';
+import Maha from '../image-teacher/mahachor.jpg';
+import prem from '../image-teacher/prem.jpg';
+import dharma from '../image-teacher/dharma.jpg';
+import pushpa from '../image-teacher/pushpa.jpg';
+import pramood from '../image-teacher/pramood.jpg';
+import dipraj from '../image-teacher/dipraj.jpg';
+import parbhu from '../image-teacher/parbhulal.jpg';
+import lanka from '../image-teacher/lanka.jpg';
+import preetam from '../image-teacher/preetam.jpg';
+import upendra from '../image-teacher/upendra.jpg'
+import Yamuna from '../image-teacher/yamuna.jpg'
+import krishnasanjyal from '../image-teacher/k-s.jpg';
+import dhanaparsad from '../image-teacher/dhanap.jpg';
+import sportsteacher from '../image-teacher/jiban.jpg';
 
 const AboutUs = () => {
   return (
@@ -98,7 +118,7 @@ const AboutUs = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {dipraj}
               alt="Chairperson"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -107,7 +127,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {pushpa}
               alt="Principal"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -116,7 +136,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {pramood}
               alt="Vice Principal"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -125,7 +145,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {Maha}
               alt="Vice Principal"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -134,7 +154,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {parbhu}
               alt="Senior Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -152,11 +172,11 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {upendra}
               alt="Mathmatecian"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
-            <h3 className="text-xl font-bold">Upendra Baral</h3>
+            <h3 className="text-xl font-bold">Upendra Parsad Neupane</h3>
             <p className="text-gray-600">Mathmatecian Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
@@ -172,7 +192,7 @@ const AboutUs = () => {
 
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {KALPANA}
               alt="Accountancy Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -181,13 +201,14 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {HEMRAJ}
               alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
             <h3 className="text-xl font-bold">Hemraj Neupane</h3>
             <p className="text-gray-600">English Teacher</p>
           </div>
+          
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
@@ -197,6 +218,7 @@ const AboutUs = () => {
             <h3 className="text-xl font-bold">Buddhi Parsad Adhikari</h3>
             <p className="text-gray-600">Nepali Teacher</p>
           </div>
+          
           <div className="p-6 shadow-lg rounded-lg">
             <img
               src="https://via.placeholder.com/150"
@@ -208,7 +230,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {lanka}
               alt="Business Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -216,7 +238,7 @@ const AboutUs = () => {
             <p className="text-gray-600">Business Teacher</p>
           </div>  <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {prem}
               alt="Internal Management team"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -225,7 +247,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {Mekindra}
               alt="All Rounder"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -243,7 +265,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {DK}
               alt="English Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -288,7 +310,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {dharma}
               alt="Math Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -307,7 +329,7 @@ const AboutUs = () => {
 
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {dhanaparsad}
               alt="Science Teacher"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -325,12 +347,21 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {Yamuna}
               alt="ECD HEAD"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
             <h3 className="text-xl font-bold">Yamuna Bhauju</h3>
             <p className="text-gray-600">ECD HEAD</p>
+          </div>
+          <div className="p-6 shadow-lg rounded-lg">
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Mother/Teacher"
+              className="rounded-full mx-auto mb-4 w-24 h-24"
+            />
+            <h3 className="text-xl font-bold">Resham Kala Shahi</h3>
+            <p className="text-gray-600">Mother/Teacher</p>
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
@@ -343,7 +374,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {krishnasanjyal}
               alt="Office Management Team"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -359,9 +390,10 @@ const AboutUs = () => {
             <h3 className="text-xl font-bold">Dhurba Bahadur Shahi</h3>
             <p className="text-gray-600">Helper</p>
           </div>
+         
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {preetam}
               alt="Hostel Incharge"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
@@ -370,7 +402,7 @@ const AboutUs = () => {
           </div>
           <div className="p-6 shadow-lg rounded-lg">
             <img
-              src="https://via.placeholder.com/150"
+              src= {sportsteacher}
               alt="Sport Teacher/DI"
               className="rounded-full mx-auto mb-4 w-24 h-24"
             />
