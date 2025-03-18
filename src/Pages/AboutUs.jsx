@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css'
 
 
-import KrishnaParsad from '../image-teacher/Krishna.jpg';
+import KrishnaParsad from '../image-teacher/krishna.jpg';
 import ManojParsadShah from '../image-teacher/manoj.jpg';
 import Mekindra from '../image-teacher/mekindra.jpg';
 import DK from '../image-teacher/dk.jpg';
@@ -608,14 +608,7 @@ const AboutUs = () => {
                   loading="lazy"
                 />
               </div>
-              <div className="overflow-hidden">
-                <img 
-                  src="/uploads-school/22.jpeg" 
-                
-                  className="w-full h-auto object-cover" 
-                  loading="lazy"
-                />
-              </div>
+             
              
           </div>
         </div>
